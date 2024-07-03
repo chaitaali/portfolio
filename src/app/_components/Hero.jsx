@@ -26,7 +26,7 @@ export default function Hero() {
       {/* Right Section */}
       <div className="md:w-2/5 flex justify-end items-center">
         <div className="w-fit p-4 ">
-          <Image src={img} height={40} width={40}></Image>
+          {/* <Image src={img} height={40} width={40}></Image> */}
         </div>
       </div>
     </section>
