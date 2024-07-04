@@ -14,7 +14,6 @@ export default function Header() {
       </div>
 
       {/* Navigation Links */}
-      <div className="flex items-center gap-8"> 
       <nav className="hidden md:flex space-x-10 nav-link gap-8">
         <Link href="#home" >Home</Link>
         <Link href="#about">About</Link>
@@ -23,11 +22,10 @@ export default function Header() {
       </nav>
 
       {/* Hire Button */}
-      <div className="hidden md:flex justify-center items-center">
+      <div className="hidden md:flex justify-center">
         <FaGithub className="text-black text-2xl md:text-2xl mr-2" />
         <FaTwitter className="text-black text-2xl md:text-2xl mr-2" />
         <FaLinkedin className="text-black text-2xl md:text-2xl mr-2" />
-      </div>
       </div>
       {/* Hamburger Menu */}
       <div className="md:hidden">
